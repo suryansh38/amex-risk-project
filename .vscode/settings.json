@@ -17,5 +17,6 @@
   },
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
-  "r.rterm.mac": "/usr/local/bin/R"
+  "r.rterm.mac": "/opt/homebrew/bin/R",
+  "r.rpath.mac": "/opt/homebrew/bin/R"
 }
