@@ -27,3 +27,7 @@ derby.log
 # reporting outputs (regenerate, don't version large binaries)
 05_reporting/powerbi/*.pbix
 05_reporting/excel/*.xlsx
+
+# every module's generated run output -- regenerate by re-running the script
+*/output/
+*/*/output/

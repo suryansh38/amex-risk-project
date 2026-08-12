@@ -5,6 +5,25 @@ can't be built by a script here. This is the exact build to follow — treat
 it as a checklist for a leadership-facing risk dashboard, the kind an Amex
 risk manager would actually review weekly.
 
+## On a Mac: use Power BI Service instead of Desktop
+
+Power BI **Desktop** has no macOS build. Power BI **Service** (the web app at
+[app.powerbi.com](https://app.powerbi.com)) runs in any browser and is free
+with a Microsoft account (personal accounts work for a trial; a work/school
+account gets full features). It's more limited than Desktop for building
+complex data models, but is enough for the dashboard in this guide:
+
+1. Sign in at app.powerbi.com → **My workspace** → **New** → **Upload a file**
+2. Upload the CSVs from `05_reporting/powerbi/extracts/` directly (Service
+   accepts Excel/CSV as a dataset source — for CSV, upload each one, or
+   combine them into a single `.xlsx` with multiple sheets first using
+   `05_reporting/excel/build_workbook.py` as a starting point, since Service's
+   CSV handling is more limited than Desktop's Folder connector)
+3. Once uploaded, **Create report** from the dataset, then follow the same
+   pages/measures/DAX below — the report-building canvas is the same engine,
+   just in-browser instead of a desktop app
+4. DAX measures (section 3 below) are entered the same way, via **Modeling → New measure**
+
 ## 1. Connect data
 
 `Get Data → Folder` → point at `05_reporting/powerbi/extracts/` (run
