@@ -1,0 +1,37 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Credit Risk: Train XGBoost model",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/02_credit_risk/python/train_credit_model.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Fraud Risk: Train model",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/03_fraud_risk/train_fraud_model.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Synthetic Data: Generate",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/01_data_engineering/synthetic_data.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Reporting: Build Excel workbook",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/05_reporting/excel/build_workbook.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

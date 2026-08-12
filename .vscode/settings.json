@@ -1,0 +1,21 @@
+{
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.ipynb_checkpoints": true,
+    "**/*.pyc": true
+  },
+  "python.analysis.extraPaths": [
+    "./01_data_engineering"
+  ],
+  "editor.formatOnSave": false,
+  "editor.rulers": [88],
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "[r]": {
+    "editor.tabSize": 2
+  },
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "r.rterm.mac": "/usr/local/bin/R"
+}

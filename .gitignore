@@ -1,0 +1,29 @@
+# data (large, download-your-own)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# spark
+spark-warehouse/
+metastore_db/
+derby.log
+
+# os
+.DS_Store
+
+# reporting outputs (regenerate, don't version large binaries)
+05_reporting/powerbi/*.pbix
+05_reporting/excel/*.xlsx

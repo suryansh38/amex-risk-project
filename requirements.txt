@@ -1,0 +1,6 @@
+# Combined Python dependencies across all modules.
+# Per-module requirements.txt files also exist under each folder if you'd
+# rather install only what a given module needs.
+-r 02_credit_risk/python/requirements.txt
+-r 03_fraud_risk/requirements.txt
+-r 05_reporting/excel/requirements.txt
