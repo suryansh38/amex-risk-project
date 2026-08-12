@@ -1,4 +1,4 @@
-# Amex Risk Analytics Portfolio Project
+# isk Analytics Portfolio Project
 
 A portfolio project built to demonstrate the analytical stack used in credit-card
 risk management roles at American Express: **credit risk modeling, fraud
@@ -7,8 +7,7 @@ actually use — Hive, Spark, Python, R, Excel, and Power BI.
 
 ## Why this shape
 
-Amex risk roles (Risk Analyst, Decision Science Analyst, Risk Management
-Associate) split into three recurring problem types. This project builds one
+This project builds one
 module per type instead of one flat pipeline, because each type is scored and
 communicated differently in the real job:
 
